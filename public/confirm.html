@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="ハローワールド">
+        <title>ハローワールド</title>
+        <link rel="stylesheet" href="css/mystyle.css">
+        <link rel="shortcut icom" href="img/world.ico">
+    </head>
+    <body>
+        <script>
+            var message;
+            message = "hello world";
+            alert(message);
+        </script>
+        <div id="test" class="tests">TEST1</div>
+
+        <form method=POST action="../test/bbs.cgi?guid=ON">
+            <input type=submit value="書き込む" name=submit>
+            名前： <input name=FROM size=19>
+            E-mail<font size=1> (省略可) </font>: <input name=mail size=19><br>
+            <textarea rows=5 cols=70 wrap=off name=MESSAGE></textarea>
+            <input type=hidden name=bbs value=be>
+            <input type=hidden name=key value=1372771163>
+            <input type=hidden name=time value=1104688508>
+        </form>        
+
+    </body>
+</html>
